@@ -3,9 +3,9 @@
 
 #include "common.h"
 
-typedef struct class {
+typedef struct _class {
 	int size;
-	__u32 docs;
+	__u32* docs;
 } class;
 
 #endif
