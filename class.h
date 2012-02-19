@@ -1,11 +1,13 @@
 #ifndef _CLASSIFICATIONBASICS_CLASS_
 #define _CLASSIFICATIONBASICS_CLASS_
+#include <doccol.h>
 
 #include "common.h"
 
 typedef struct _class {
-	int size;
-	__u32* docs;
+//meta data
+//actual docs
+	doc_alist* docs;
 } class;
 
 #endif

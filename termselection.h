@@ -6,10 +6,12 @@
 #include <index.h>
 
 #include "common.h"
+#include "class.h"
 
 /*
  * term selection by mutual exclusion
  */
-void select_top_terms_mi(fi* fi, class* cl, __u32 tid);
+//define select_top_terms_mi(fi* fi, class* cl);
 
+double calc_term_importance_mi(fi* fi, class* cl, __u32 tid);
 #endif
